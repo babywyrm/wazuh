@@ -145,9 +145,13 @@ https://www.gnu.org/licenses/gpl.html\n"
 #define MON_LOCAL_SOCK  "/queue/ossec/monitor"
 #define CLUSTER_SOCK "/queue/cluster/c-internal.sock"
 #define CONTROL_SOCK "/queue/ossec/control"
+#define LOGTEST_SOCK "/queue/ossec/logtest"
 
 // Absolute path local requests socket
 #define CONTROL_SOCK_PATH DEFAULTDIR CONTROL_SOCK
+
+// Absolute path local wazuh-logtest socket
+#define LOGTEST_SOCK_PATH DEFAULTDIR LOGTEST_SOCK
 
 // Attempts to check sockets availability
 #define SOCK_ATTEMPTS   10
